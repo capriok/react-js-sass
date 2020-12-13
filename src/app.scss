@@ -1,0 +1,10 @@
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  @include flex;
+  height: 100vh;
+}
